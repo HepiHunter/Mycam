@@ -1,0 +1,289 @@
+/*untuk mengatur jenis font, ukuran, dan warna tulisan pada body, lebih jelasnya pada menu ABOUT*/
+  body {
+      font: 400 15px/1.8 Lato, sans-serif;
+      color: #777;
+  }
+  /*untuk mengatur font untuk kalimat yang menggunakan ukuran h3 dan h4*/
+  h3, h4 {
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;      
+      font-size: 20px;
+      color: #111;
+  }
+  /*untuk mengatur jarak antar menu*/
+  .container {
+      padding: 80px 120px;
+  }
+  /*untuk mengatur bentuk, efek, ukuran dari foto pengelola yang berada di bagian ABOUT*/
+  .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      opacity: 0.8;
+  }
+  .person:hover {
+      border-color: #f1f1f1;
+  }
+  /* untuk mengatur efek foto yang digunakan untuk slide */
+  .carousel-inner img {
+      -webkit-filter: grayscale(80%);
+      filter: grayscale(80%); /* menjadikan foto slide menjadi hitam putih */ 
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+  }
+  /* untuk mengatur warna dan ukuran yang digunakan untuk caption foto pada slide */
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+  /* untuk mengatur bg berbeda, contohnya oada menu MYCAM */
+  .bg-1 {
+      background: #2d2d30;
+      color: #bdbdbd;
+  }
+  /* untuk mengatur style dari judul menu "MYCAM" */
+  .bg-1 h3 {color: #fff;}
+  .bg-1 p {font-style: italic;}
+  .list-group-item:first-child {
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+  }
+  .list-group-item:last-child {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail p {
+      margin-top: 15px;
+      color: #000;
+  }
+  /* untuk mengatur style pada button */
+  .btn {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff;
+      color: #000;
+  }
+  .modal-header, h4, .close {
+      background-color: #333;
+      color: #fff !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-header, .modal-body {
+      padding: 40px 50px;
+  }
+  /* untuk mengatur style dari navigasi bar */
+  .nav-tabs li a {
+      color: #777;
+  }
+  .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  /* mengatur warna text pada navbar */
+  .navbar li a, .navbar .navbar-brand { 
+      color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  /* untuk mengatur style toggle (segitiga terbalik samping menu MORE) */
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  /* untuk mengatur warna menu yang berada di dropdown */
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: red !important;
+  }
+  /* mengatur bg pada footer */
+  footer {
+      background-color: #2d2d30;
+      color: #f5f5f5;
+      padding: 32px;
+  }
+  footer a {
+      color: #f5f5f5;
+  }
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+  }  
+  .form-control {
+      border-radius: 0;
+  }
+  textarea {
+      resize: none;
+  }
+  #tampil_modal {
+    padding-top: 10em;
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: block;
+  }
+  #modal{
+    padding: 15px;
+    font-size: 20px;
+    background: #dcdcdc;
+    color: #000;
+    width: 480px;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    z-index: 9;
+  }
+  #modal_atas{
+    width: 100%;
+    background: #000000;
+    color: #fff;
+    padding: 15px;
+    margin-left: -15px;
+    font-size: 18px;
+    margin-top: -15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  #oke {
+    background:#000000;
+    border:none;
+    float:right;
+    width:80px;
+    height:auto;
+    color: #fff;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  .table1 {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: auto;
+    border: 1px solid #000000;
+  }
+   
+  .table1 tr th{
+      background: #35A9DB;
+      color: #fff;
+      font-weight: normal;
+  }
+   
+  .table1, th, td {
+      padding: 8px 20px;
+      text-align: center;
+      border: 1px solid #000000;
+  }
+   
+  .table1 tr:hover {
+      background-color: #f5f5f5;
+  }
+   
+  .table1 tr:nth-child(even) {
+      background-color: #f2f2f2;
+  }
+
+  /* untuk mengatur style pada button */
+  .btn {
+      padding: 5px 10px;
+      background-color: #333;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+      font-size: 12px;
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff;
+      color: #000;
+  }
+
+
+
+  .form1 {
+  display: grid;
+  padding: 1em;
+  background: #f9f9f9;
+  border: 1px solid #c1c1c1;
+  margin: 2rem auto 0 auto;
+  max-width: 500px;
+  padding: 1em;
+  }
+  form input {
+    background: #fff;
+    border: 1px solid #9c9c9c;
+  }
+  form button {
+    background: lightgrey;
+    padding: 0.7em;
+    width: 100%;
+    border: 0;
+  }
+  form button:hover {
+    background: gold;
+  }
+
+  label {
+    padding: 0.5em 0.5em 0.5em 0;
+  }
+
+  input {
+    padding: 0.7em;
+    margin-bottom: 0.5rem;
+  }
+  input:focus {
+    outline: 3px solid gold;
+  }
+
+  @media (min-width: 400px) {
+    form {
+      grid-template-columns: 200px 1fr;
+      grid-gap: 16px;
+    }
+
+    label {
+      text-align: center;
+      grid-column: 1 / 2;
+    }
+
+    input,
+    button {
+      grid-column: 2 / 3;
+    }
+  }
